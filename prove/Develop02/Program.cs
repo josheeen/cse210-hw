@@ -16,12 +16,15 @@ public class Program
         if( _userInput == 1)
         {
             Entry en = new Entry();
-            Console.Write("How was your day? ");
+            Console.WriteLine("How was your day? ");
             en._entry = Console.ReadLine();
             myJournal._addEntry.Add(en);
             
         }
-        myJournal.showJournal();
+        else if (_userInput == 2)
+        {
+            myJournal.showJournal();
+        }
         
     }
 }

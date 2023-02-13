@@ -7,7 +7,7 @@ public class Entry
     public string _entry;
     public void showEntry()
     {
-        Console.WriteLine($"Whatever that was written in {_entry}");
+        Console.WriteLine($"{_entry}");
     }
 
     
